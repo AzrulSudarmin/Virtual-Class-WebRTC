@@ -1,0 +1,33 @@
+.lineSize-select {
+	display: block;
+	position: relative;
+}
+
+.lineSize-option {
+	position: absolute;
+	background-color: white;
+	padding: 5px;
+	border: 1px #bebebe solid;
+	width: 100px;
+}
+
+.lineSize-option > label {
+	display: block;
+	float: left;
+	width: 90px;
+	margin: 5px;
+	background-color: #bebebe;
+	cursor: pointer;
+}
+
+.lineSize-option input[type=radio]:checked + label , .lineSize-option > label:hover {
+	background-color: black;
+}
+
+.toolType > label {
+	display: inline-block;
+}
+
+.toolType input[type=radio]:checked + label {
+	background-color: #F15D52;
+}

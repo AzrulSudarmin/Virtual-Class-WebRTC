@@ -1,0 +1,98 @@
+.line-through {
+	text-decoration: line-through;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.group-fore-color {
+	display: block;
+  	position: relative;
+ 	bottom: 0px;
+  	margin-top: 0px;
+}
+
+.group-fore-color div {
+	display: list-item;
+  	float: none !important;
+}
+
+.fore-color-header {
+	width: 27px;
+  	padding: 5px 2px 5px 8px;
+}
+
+.fore-color-header img {
+	height: 15px;
+  	margin-top: 3px;
+  	position: absolute;
+}
+
+.fore-color-select {
+	position: absolute;
+  	background-color: white;
+  	padding: 5px;
+  	border: 1px #bebebe solid;
+  	width: 210px;
+  	visibility: hidden;
+}
+
+.fore-color-select > .def-fore-color > label {
+	display: block;
+  	float: left;
+  	height: 15px;
+  	width: 15px;
+  	margin: 1px 2px 1px 2px;
+  	border: solid 1px #bebebe;
+  	cursor: pointer;
+}
+
+.fore-color-select > .def-fore-color > label:hover{
+  border-color: #F15D52;
+}
+
+.input-hidden {
+	position: absolute;
+  	left: -9999px;
+}
+
+.fore-color-header:hover{
+  background-color: #F15D52;
+}
+
+.fore-color-select label:hover{
+  border-color: #F15D52;
+}
+.fore-color-select div{
+  display: inline-block;
+}
+.moreColor{
+  width: 98%;
+  border-top: solid 1px #bebebe;
+}
+.moreColor > input{
+  width: 20px;
+  background: none;
+  border: 0px;
+}
+.moreColor > label{
+  border: 0px;
+  width: inherit;
+  font-size: 13px;
+  margin: 0px;
+  padding: 0px;
+  float: none;
+  display: inline;
+  margin-bottom: 2px;
+}
+
+.select-margin input[type=radio] + label>img, .select-list input[type=radio] + label>img {
+  width: 30px;
+  transition: 100ms all;
+  cursor: pointer;
+}
+
+#indent > img, #outdent > img {
+  max-height: 30px;
+}
