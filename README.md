@@ -1,2 +1,2 @@
-# E-LearningWebRTC
-E-Learning Tools using WebRTC Technology
+# Virtual Class WebRTC
+Virtual Class using WebRTC Technology
